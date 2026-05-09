@@ -8,7 +8,7 @@ import {
   ActivityIndicator,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { useCotacoes } from "./hooks/useCotacoes";
+import { useCotacoes } from "../hooks/useCotacoes";
 import { cores, espacamento, raio } from "../theme";
 
 export function CartaoCotacoes() {
