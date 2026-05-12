@@ -19,7 +19,7 @@ import { ItemTransacao } from "../components/ItemTransacao";
 import { useTransacoes } from "../context/TransacoesContext";
 import { cores, espacamento } from "../theme";
 
-export function DashboardScreen({ navigation }) {
+export function DashboardScreen({ navigation, route }) {
   const {
     transacoes,
     saldo,
